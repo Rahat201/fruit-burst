@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit Burst</title>
+
+    <!-- daisyui and tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+        .text-hover:hover{
+                cursor: pointer;
+        }
+
+    </style>
 </head>
-<body>
-    
+<body class="font-lato">
+    <header class="max-w-screen-xl mx-auto">
+        <nav class="grid col-span-2 lg:grid-cols-3 items-center  bg-[#F85559] rounded-full lg:mx-24 my-5 py-3">
+            <div class=" ">
+                <div class="hidden lg:flex">
+                  <ul class="flex text-hover gap-4 pl-5 text-[#FFF] font-medium">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class=""><a class=" flex normal-case text-xl">
+                <img src="./images/logo.png" alt="">
+                <h3 class=" text-xl  lg:text-4xl font-bold text-[#FFF]">Fruit Burst</h3></a></div>
+              <div class="hidden pr-5 lg:flex"><input type="text" placeholder="Search" class="input rounded-full w-96" /></div>
+            <!-- for small device -->
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm font-medium dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                  </ul>
+              </div>       
+        </nav>
+    </header>
+    <main></main>
+    <footer><div class="form-control">
+        
+      </div></footer>
 </body>
 </html>
