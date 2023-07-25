@@ -30,7 +30,7 @@
 </head>
 
 <body class="font-lato">
-    <header class="max-w-screen-xl mx-3 ">
+    <header class="max-w-screen-xl mx-3 items-center">
         <!-- Nab bar section -->
         <nav class="grid grid-cols-3 items-center  bg-[#F85559] rounded-full lg:mx-16 my-5 py-3">
             <div class=" ">
@@ -126,11 +126,123 @@
             </div>
         </div>
     </header>
-    <main></main>
-    <footer>
-        <div class="form-control">
+    <main class="max-w-screen-xl mx-20 my-6">
+        <!-- Deal of the day section -->
+        <section>
+            <div class="lg:flex justify-between">
+                <div class="flex-1">
+                    <h3 class="text-5xl font-extrabold">Deal of the day</h3>
+                    <p class="text-[#a8a396] text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+                        Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <!-- Date-time-->
+                <div class="grid grid-flow-col gap-5 pt-6 text-center justify-end  auto-cols-max">
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:51;"></span>
+                      </span>
+                      sec
+                    </div>
+                </div>
+            </div>
+            <!-- Deal-card-section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5">
+                <!-- deal-card-1 -->
+                <div class="card items-center text-center bg-base-100 shadow-xl">
+                    <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
+                      <hr>
+                      <p class=" text-base font-medium text-[#a8a396]">Apples</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      <p>Details</p>
+                    </div>
+                  </div>
+                  <!-- deal-card-2 -->
+                  <div class="card items-center text-center bg-base-100 shadow-xl">
+                    <figure><img src="/images/fruit7.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
+                      <hr>
+                      <p class=" text-base font-medium text-[#a8a396]">Orange</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      <p>Details</p>
+                    </div>
+                  </div>
+                  <!-- deal-card-3 -->
+                  <div class="card  items-center text-center bg-base-100 shadow-xl">
+                    <figure><img src="/images/fruit8.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
+                      <hr>
+                      <p class=" text-base font-medium text-[#a8a396]">Red Dragon</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      <p>Details</p>
+                    </div>
+                  </div>
+                  <!-- deal-card-4 -->
+                  <div class="card items-center text-center bg-base-100 shadow-xl">
+                    <figure><img src="/images/fruit9.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
+                      <hr>
+                      <p class=" text-base font-medium text-[#a8a396]">Banana</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      <p>Details</p>
+                    </div>
+                  </div>
+            </div>
 
-        </div>
+
+        </section>
+
+
+
+
+    </main>
+    <footer>
     </footer>
 </body>
 
